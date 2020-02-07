@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link rel="stylesheet" type="text/css" href="./About.css">
+</head>
+<body>
+	<header class="burger">
+		<nav>
+			<div>
+				<h1 style="flex:2;">&lt;S.DEV&gt;</h1>
+				<div class="Menu" style="align-self: center; flex: 1;" >&#9776;</div>
+			</div>
+		</nav>
+		<div class="Links">
+			<ul>
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="../Services/Services.html">Services</a></li>
+				<li><a href="./About.html">About</a></li>
+			</ul>
+		</div>
+	</header>
+	<section class="AboutPage">
+		<h1>Author</h1>
+		<div class="Author">
+			<div class="Container">
+				<div class="authorImg">
+					
+				</div>
+
+				<div class="authorInfo">
+					<h2>Suhas Waydande</h2>
+					<h3>Front-End Web-Developer</h3>
+				</div>
+				<div class="ContactUS">
+					<div class="Box"><a href="https://www.youtube.com/channel/UCGW7hE-5qAMX56qZGhFSj9g?view_as=subscriber"><img src="../public/icons8-youtube-squared-144.png"></a></div>
+					<div class="Box"><a href="https://www.facebook.com/suhas.waydande.6"><img src="../public/icons8-facebook-old-144.png"></a></div>
+					<div class="Box"><a href="https://twitter.com/waydandesuhas"><img src="../public/icons8-twitter-squared-96.png"></a></div>
+					<div class="Box"><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJNsMBkgmsTWqrVdzTDBpQqWlhNddlxWPPVTQLwRvQtSzqTQXCsHBLzvNgpdsMvVhPXmDmL"><img src="../public/icons8-google-plus-250.png" style="border: 1px solid black; border-radius: 25%;background-color: #ffffff4a;"> </a></div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<footer>
+		<h3>&copy; Copyright@SuhasWaydande </h3>
+	</footer>
+	<script >
+		const Menu = document.querySelector(".Menu");
+
+		Menu.addEventListener("click",()=>{
+			document.querySelector("header").classList.toggle("HamBurger");
+			document.querySelector("header").classList.toggle("burger");
+});
+
+	</script>
+</body>
+</html>

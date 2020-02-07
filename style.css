@@ -1,0 +1,398 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    font-family: monospace;
+    
+}
+
+body{
+    font-size: larger;
+}
+header, ul{
+	display: flex;
+	list-style: none;
+	background-color: #ffcf00;
+}
+header > nav, header > div{
+	flex: 1;
+	text-align: center;
+}
+ul{
+	float: right;	 
+}
+li{
+	margin: 0px 15px;
+/*	border: 1px solid black;*/
+	border-radius: 7px;
+    background-color: #398689;
+    color: #ffffff;
+	padding: 0px 7px;
+	font-size: large;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-decoration-line: none;
+    font-size: unset;
+}
+
+
+header{
+	border-bottom: 1px solid black;
+	box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.58);
+	margin: auto 0px; 
+	text-align: center;
+}
+.Links{
+	margin: auto 0px;
+}
+
+
+.MiddlePart{
+	
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	position: relative;
+/*	overflow: scroll;*/
+	display: flex;
+	background-color: #313131;
+	
+}
+p{
+	height: max-content;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+	background-color: rgba(255, 248, 220, 0.603);
+
+	
+	
+}
+.MainContent{
+	margin: 0px auto;
+	text-align: center;
+	flex: 2;
+	
+
+}
+
+.First-Part{
+	background-image: url("./public/image2.jpg");
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+.Second-Part{
+	background-image: url('./public/image4.jpg');
+    display: flex;
+    justify-content: center;
+}
+
+.Third-Part{
+	background-image: url('./public/image5.png');
+	display: flex;
+	justify-content: center;
+    flex-direction: column;
+    color: cornflowerblue;
+    font-size: 30px;
+}
+
+.First-Part, .Second-Part, .Third-Part{
+	margin: 10px auto;
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+
+	background-color: rgba(0, 0, 0, 0.64);
+	background-blend-mode: color;
+}
+
+.F-P-Design{
+	width: 100%;
+    height: 150px;
+    background-color: #47487082;
+    text-align: initial;
+    color: ghostwhite;
+    display: flex;
+    align-items: center;
+}
+
+.F-P-Design > h1{
+	left: 100px;
+    position: relative;
+    font-family: monospace;
+    font-size: -webkit-xxx-large;
+}
+
+.Slidebar{
+	background-color: #868583b0;
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    align-self: center;
+    display: flex;
+}
+
+.before , .after{
+    width: 50px;
+    line-height: 100px;
+    vertical-align: middle;
+    height: 100px;
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    align-self: center;
+    background-color: #0000008a;
+}
+.before{left: 50px;}
+.after{right: 50px;}
+
+.Second-Part > .Form, .Second-Part > .ProfilePic {
+	background-color: #26586ccc;
+    width: 45%;
+    margin: 5px;
+    height: 400px;
+    align-self: center;
+    border-radius: 5%;
+    display: flex;
+}
+
+
+/*.ProfilePic > .Form{
+    background-color: #26586ccc;
+    width: 100%;
+    margin: 5px;
+    height: 400px;
+    align-self: center;
+    border-radius: 5%;
+    display: flex;
+}*/
+.ProfilePic > .Form-Hidden{
+    visibility: hidden;
+} 
+.Form > form{
+	display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: auto;
+    text-align: left;
+    width: 80%;
+    font-size: large;
+    color: white;
+    line-height: 2;
+}
+
+.Form > h1{
+    position: absolute;
+    color:
+    yellowgreen;
+    margin: 25px;
+}
+
+
+.button {
+	width: 29%;
+    align-self: center;
+    border-radius: 15px;
+    background-color: #e26161;
+    flex-direction: row;
+    margin: auto 15px;
+    margin-top: 35px;
+    color: white;
+    border: none;
+    font-size: smaller;
+    text-align: center;
+}
+.Btns {
+    display: flex;
+    justify-content: center;
+}
+
+.ProfilePic{
+	background-image: url("./public/image3.jpg");
+	background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+}
+input{
+	border: 0px;
+	height: 30px;
+	font-size: smaller;
+}
+input::placeholder{
+	background-color: White;
+}
+
+.Boxes , .Small-Boxes{
+	flex: 1;
+    height: 220px;
+    background-color: #3e476bb5;
+    align-self: center;
+    margin: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.Boxes:hover, .Small-Boxes:hover{
+    border: 1px solid #ffffff40;
+}
+
+.Inside-Box{
+    background-color: #ffffff;
+    width: 125px;
+    height: 125px;
+    align-self: center;
+    background-size: cover;
+    border-radius: 50%;
+    background-size: 110%;
+    background-position: center;
+
+}
+.Slidebar{
+    background-size: cover;
+    background-position: center;
+}
+
+.Login{
+    width: 90%;
+    height: 500px;
+    background-color:
+    #2e3f5ab8;
+    align-self: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.logger{
+    flex: 1;
+    background-color:
+    #0a1623a6;
+    margin: 50px 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.Menu{
+    visibility: hidden;
+}
+
+nav > div{
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: fit-content;
+    align-self: center;
+}
+
+
+
+
+ 
+@media all and (max-device-width: 720px){
+li {
+    margin: 10px 15px;
+    /* border: 1px solid black; */
+    border-radius: 7px;
+    background-color: #398689;
+    color: #ffffff;
+    padding: 0px 7px;
+    font-size: 90px;
+    align-self: center;
+    width: -webkit-fill-available;
+}
+
+ul {
+    align-self: center;
+    float: none;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    border-bottom: 1px solid black;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.58);
+    margin: auto 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header > nav {
+    flex: 1;
+    text-align: center;
+    font-size: 80px;
+}
+
+header, ul {
+    /* display: flex; */
+    list-style: none;
+    background-color: #ffcf00;
+}
+.First-Part{
+    height: 800px;
+}
+
+.Second-Part{
+    height: 700px
+}
+
+.before, .after{
+    visibility: hidden;
+}
+
+.Slidebar{
+    width: 100%;
+    height: 70%;
+}
+
+/*.Second-Part{
+    height: 800px;
+}*/
+
+.logger{
+    position: absolute;
+    width: 80%;
+    height: 400px;
+    background-color: #151818;
+    margin-left: 0px;
+}
+
+.button{
+    width: 40%;
+    font-size: 25px;
+}
+.burger{
+    height: 140px;
+    overflow: hidden;
+}
+
+.HamBurger{
+    list-style: none;
+    background-color: #ffcf00;
+}
+.Menu{
+    visibility: visible;
+}
+
+
+
+}
+
+footer {
+    background-color: black;
+    color: azure;
+    text-align: center;
+    font-size: initial;
+}
+
+

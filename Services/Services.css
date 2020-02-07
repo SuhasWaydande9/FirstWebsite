@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Main-Contener {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    background-color:#0000009e;
+    background-image: url("../public/image2.jpg");
+    background-blend-mode: overlay;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.Price, .Services{
+
+    background-color:#7e7fa866;
+    text-align: initial;
+    color: black;
+    flex: 1;
+    margin: 10px;
+    box-shadow: 1px 2px 1px 0px #0000006b;
+    color:snow;
+}
+
+.Price-Box, .Services-Provided{
+    display: flex;
+    flex: 1;
+    /* height: 250px; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Price{
+
+}
+
+.Services{
+    font-size: 19px;
+}
+
+.Services > h1{
+    left: 10px;
+    position: relative;
+    font-size: 25px;
+    top: 5px;
+}
+
+.Services > p{
+    font-family: 'Montserrat', sans-serif;
+    height: 120px;
+    border: none;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.69);
+    font-size: large;
+    text-align: center;
+}
+
+p:hover {
+    box-shadow: 1px 1px 1px 0px #fff;
+
+}
+@media all and (max-device-width: 720px){
+    .Main-Contener{
+        height: max-content;
+    }
+
+    .Main-Contener > h2{
+        font-size: 90px;
+    }
+    .Services > p {
+        height: min-content;
+        border: none;
+        margin: 10px;
+        padding: 10px;
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .Services > h1 {
+        left: 10px;
+        position: relative;
+        font-size: 70px;
+        top: 5px;
+        text-align: center;
+    }
+}
